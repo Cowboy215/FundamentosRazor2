@@ -1,0 +1,23 @@
+﻿@page "/componentes"
+
+<h3>Componentes</h3>
+@* 
+<Counter></Counter>
+
+<Counter />
+
+@for (int i = 0; i < 2; i++)
+{
+    <Counter />
+}
+ *@
+
+<div class="row">
+    <div class="col-6 bg-secondary">
+        <Counter valorInicial="13" EncabezadoPagina="Titulo COntador Parametro" />
+    </div>
+
+    <div class="col-6 bg-success">
+        <Counter valorInicial="8" EncabezadoPagina="Otro contador" />
+    </div>
+</div>

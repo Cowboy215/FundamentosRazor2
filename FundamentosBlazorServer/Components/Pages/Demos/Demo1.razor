@@ -1,0 +1,23 @@
+﻿@page "/demos/demo1"
+<h3>Demo 1</h3>
+
+<p>@web</p>
+
+<p>
+    @a + @b
+</p>
+
+<p>
+    @(a + b)
+</p>
+
+@@web
+
+
+
+@code {
+    private string web = "www.potcastparanormal.com";
+
+    private int a = 5;
+    private int b = 8;
+}
